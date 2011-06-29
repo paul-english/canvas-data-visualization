@@ -1,0 +1,22 @@
+<div id="modal">
+  <form name="csv_upload" id="csv_upload" method="post" action="/csv" enctype="multipart/form-data">
+    <ul>
+      <li>
+        <label for="csv">CSV File:</label>
+        <input type="file" name="csv" id="csv" />
+      </li>
+      <li>
+        <input type="submit" id="analyze" value="Analyze" />
+      </li>
+    </ul>
+  </form>
+  <div class="attribution">
+    <a href="http://github.com/nrub/canvas-data-visualization">Github</a>
+    /
+    <a href="http://onfrst.com">FRST</a>
+ </div>
+</div>
+<canvas id="out"></canvas>
+<script type="text/javascript" src="/jquery-1.6.1.min.js"></script>
+<script type="text/javascript" src="/ajaxfileupload.js"></script>
+<script type="text/javascript" src="/app.js"></script>
