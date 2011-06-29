@@ -9,7 +9,7 @@
 			  visualization.render();
 		      });
 
-     var left = (window.innerWidth / 2) - 150;
+     var left = (window.innerWidth / 2) - 175;
      $('#modal').css('left', left)
                 .hover(function() {
 			   if ($('#modal').data('hidden')) {
